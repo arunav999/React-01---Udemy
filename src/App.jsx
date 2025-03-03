@@ -11,7 +11,6 @@ function App() {
 
   const handleSelect = (selectedButton) => {
     setSelectedTopic(selectedButton);
-    console.log(selectedTopic);
   };
 
   return (
