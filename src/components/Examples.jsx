@@ -37,7 +37,8 @@ const Examples = () => {
     <section id="examples">
       <h2>Examples</h2>
       <Tabs
-        button={
+        ButtonsContainer="menu"
+        buttons={
           <>
             <TabButton
               onClick={() => handleSelect("components")}
