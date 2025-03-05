@@ -11,7 +11,11 @@ function App() {
   const [selectedTopic, setSelectedTopic] = useState();
 
   const handleSelect = (selectedButton) => {
-    setSelectedTopic(selectedButton);
+    if (selectedTopic === selectedButton) {
+      setSelectedTopic(null);
+    } else {
+      setSelectedTopic(selectedButton);
+    }
   };
 
   /*
