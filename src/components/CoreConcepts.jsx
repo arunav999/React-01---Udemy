@@ -1,5 +1,5 @@
-import CoreConcept from "./Core Concept/CoreConcept";
-import { CORE_CONCEPTS } from "../data";
+import CoreConcept from "./Core Concept/CoreConcept.jsx";
+import { CORE_CONCEPTS } from "../data.js";
 
 const CoreConcepts = () => {
   return (
