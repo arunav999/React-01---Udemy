@@ -37,7 +37,7 @@ const Examples = () => {
     <section id="examples">
       <h2>Examples</h2>
       <Tabs
-        ButtonsContainer="menu"
+        // ButtonsContainer="menu"
         buttons={
           <>
             <TabButton
